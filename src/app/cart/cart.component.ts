@@ -25,7 +25,8 @@ export class CartComponent {
   onSubmit(): void {
     // Process checkout data here
     this.items = this.cartService.clearCart();
-    console.warn('Your order has been submitted', this.checkoutForm.value);
+    console.warn('Su pedido a sido registrado', this.checkoutForm.value);
+    window.alert('Su pedido a sido registrado');
     this.checkoutForm.reset();
   }
 }
