@@ -1,8 +1,8 @@
 /* Global Styles */
 
 * {
-  font-family: 'Roboto', Arial, sans-serif;
-  color: #616161;
+  font-family: 'Times New Roman', Arial, sans-serif;
+  color: #000000;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -24,11 +24,12 @@ router-outlet + *  {
 /* Text */
 
 h1 {
-  font-size: 32px;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 26px;
+  text-align:center;
 }
 
 h1, h2 {
@@ -36,25 +37,25 @@ h1, h2 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* Hyperlink */
 
 a {
   cursor: pointer;
-  color: #1976d2;
+  color: #008892;
   text-decoration: none;
 }
 
 a:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 /* Input */
 
 input {
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 2px;
   padding: 8px;
   margin-bottom: 16px;
@@ -64,7 +65,7 @@ input {
 label {
   font-size: 12px;
   font-weight: bold;
-  margin-bottom: 4px;
+  margin-bottom: 2px;
   display: block;
   text-transform: uppercase;
 }
@@ -74,33 +75,33 @@ label {
   display: inline-flex;
   align-items: center;
   padding: 8px 16px;
-  border-radius: 2px;
-  font-size: 14px;
+  border-radius: 20px;
+  font-size: 16px;
   cursor: pointer;
-  background-color: #1976d2;
-  color: white;
+  background-color: #008892;
+  color: rgb(0, 0, 0);
   border: none;
 }
 
 .button:hover, button:hover {
-  opacity: 0.8;
-  font-weight: normal;
+  opacity: 1;
+  font-weight: bolder;
 }
 
 .button:disabled, button:disabled {
-  opacity: 0.5;
+  opacity: 0.6;
   cursor: auto;
 }
 
 /* Fancy Button */
 
 .fancy-button {
-  background-color: white;
-  color: #1976d2;
+  background-color: #008892;
+  color: #000000;
 }
 
 .fancy-button i.material-icons {
-  color: #1976d2;
+  color: #000000;
   padding-right: 4px;
 }
 
@@ -109,7 +110,7 @@ label {
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: #1976d2;
+  background-color: #000000;
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -118,7 +119,7 @@ app-top-bar {
 }
 
 app-top-bar h1 {
-  color: white;
+  color: #008892;
   margin: 0;
 }
 
@@ -134,7 +135,7 @@ app-top-bar h1 {
   padding: 16px 32px;
   margin-bottom: 8px;
   border-radius: 2px;
-  background-color: #EEEEEE;
+  background-color: #008892;
 }
 
 
